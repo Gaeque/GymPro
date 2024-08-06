@@ -1,8 +1,9 @@
-import * as React from 'react';
-import { ActivityIndicator, MD2Colors, } from 'react-native-paper';
+import { ActivityIndicator } from 'react-native-paper';
+import theme from '../theme';
+
 
 const Loading = () => (
-   <ActivityIndicator  style={{flex: 1}} animating={true} color={MD2Colors.red900}/>
+   <ActivityIndicator  style={{flex: 1}} animating={true} color={theme.colors.green700}/>
 );
 
 export default Loading;
